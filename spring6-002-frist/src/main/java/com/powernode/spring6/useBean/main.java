@@ -12,7 +12,6 @@ import java.util.Date;
  * @author fj
  * @date 2022/11/27 22:00
  */
-@Slf4j
 public class main {
     public static void main(String[] args) {
 
