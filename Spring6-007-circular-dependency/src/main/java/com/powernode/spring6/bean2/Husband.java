@@ -1,4 +1,4 @@
-package com.powernode.spring6.bean;
+package com.powernode.spring6.bean2;
 
 /**
  * Husband
@@ -12,10 +12,7 @@ public class Husband {
 
     private Wife wife;
 
-    public Husband setName(String name) {
-        this.name = name;
-        return this;
-    }
+
 
     public String getName() {
         return name;
@@ -25,9 +22,9 @@ public class Husband {
         return wife;
     }
 
-    public Husband setWife(Wife wife) {
+    public Husband(String name, Wife wife) {
+        this.name = name;
         this.wife = wife;
-        return this;
     }
 
     @Override

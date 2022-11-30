@@ -1,7 +1,11 @@
-package com.powernode.simple.factory;/**
+package com.powernode.simple.factory;
+
+/**
  * Weapon
- * 
+ *
  * @author fj
  * @date 2022/11/28 14:17
- */public class Weapon {
+ */
+public abstract class Weapon {
+    public abstract void attack();
 }

@@ -3,4 +3,13 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+    <!--spring提供的实例化放式 Spring会自动调用无参构造来实例化bean-->
+    <bean id="sb" class="com.powernode.spring6.bean.SpringBean"/>
+    <!--通过简单工厂模式，在配置文件中告诉Spring框架，调用哪个类的那个方法获取bean-->
+    <bean id="star" class="com.powernode.spring6.bean.StarFactory" factory-method="getStar"/>
+    <!-- 通过工厂模式 指定工厂类 和指定方法-->
+    <bean id="vipFactory" class="com.powernode.spring6.bean.VipFactory"/>
+    <bean id="vip" factory-bean="vipFactory" factory-method="getVip"/>
+    <!--通过FactoryBean提供的接口来实现-->
+    <bean id="person" class="com.powernode.spring6.bean.PersonFactory"/>
 </beans>

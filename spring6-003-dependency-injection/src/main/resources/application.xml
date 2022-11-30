@@ -3,4 +3,14 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+    <bean id="userService" class="com.powernode.spring6.service.UserService">
+        <property name="userDao" ref="userDao" />
+    </bean>
+
+    <bean id="userDao" class="com.powernode.spring6.dao.UserDao"/>
+    <bean id="vipDao" class="com.powernode.spring6.dao.VipDao"/>
+    <bean id="vipService" class="com.powernode.spring6.service.VipService">
+        <constructor-arg index="0" ref="vipDao"/>
+        <constructor-arg index="1" ref="userDao"/>
+    </bean>
 </beans>

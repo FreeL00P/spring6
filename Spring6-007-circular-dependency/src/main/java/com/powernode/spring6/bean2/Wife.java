@@ -1,4 +1,4 @@
-package com.powernode.spring6.bean;
+package com.powernode.spring6.bean2;
 
 /**
  * Wife
@@ -12,15 +12,12 @@ public class Wife {
 
     private Husband husband;
 
-    public Wife setName(String name) {
+    public Wife(String name, Husband husband) {
         this.name = name;
-        return this;
+        this.husband = husband;
     }
 
-    public Wife setHusband(Husband husband) {
-        this.husband = husband;
-        return this;
-    }
+
 
     public String getName() {
         return name;

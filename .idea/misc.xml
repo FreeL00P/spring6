@@ -8,6 +8,16 @@
         <option value="$PROJECT_DIR$/spring6-001-revelation/pom.xml" />
         <option value="$PROJECT_DIR$/Spring6-001-revelation/pom.xml" />
         <option value="$PROJECT_DIR$/spring-002-frist/pom.xml" />
+        <option value="$PROJECT_DIR$/spring6-003-dependency-injection/pom.xml" />
+        <option value="$PROJECT_DIR$/spring6-002-frist/pom.xml" />
+        <option value="$PROJECT_DIR$/simple-factory/pom.xml" />
+        <option value="$PROJECT_DIR$/spring6-006-bean-instantiation/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring6-007-circular-dependency/pom.xml" />
+        <option value="$PROJECT_DIR$/review-reflect/pom.xml" />
+        <option value="$PROJECT_DIR$/myspring/pom.xml" />
+        <option value="$PROJECT_DIR$/myspring-test/pom.xml" />
+        <option value="$PROJECT_DIR$/spring6-008-ioc-annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/static-proxy/pom.xml" />
       </list>
     </option>
   </component>

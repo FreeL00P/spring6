@@ -3,4 +3,36 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+    <!--singleton+setter模式下的循环依赖是不会出现任何问题的-->
+    <!--
+        为什么？spring是如何应对这个问题的？
+        主要原因是:在这种模式下spring对bean的的管理主要分为两个阶段：
+        第一个阶段:在spring容器加载的时候，实例化bean只要其中一个bean被实例化之后，马上进行曝光（不等属性赋值就曝光）
+        第二个阶段:Bean曝光之后，将在进行属性的赋值（调用set方法）
+        实例化对象和对象的属性分两个阶段来完成。
+        -->
+    <!--在prototype+setter模式下会出现异常（当两个bean的scope都是prototype时才会）-->
+
+    <bean id="wife" class="com.powernode.spring6.bean.Wife" scope="prototype">
+        <property name="name" value="张三"/>
+        <property name="husband" ref="husband"/>
+    </bean>
+
+    <bean id="husband" class="com.powernode.spring6.bean.Husband" scope="singleton">
+        <property name="name" value="李四"/>
+        <property name="wife" ref="wife"/>
+
+    </bean>
+    <!--通过构造方法+singleton模式下的循环依赖
+        无法解决循环依赖问题
+        -->
+    <bean id="wife1" class="com.powernode.spring6.bean2.Wife" scope="singleton">
+       <constructor-arg index="0" value="张安"/>
+        <constructor-arg index="1" ref="husband1"/>
+    </bean>
+
+    <bean id="husband1" class="com.powernode.spring6.bean2.Husband" scope="singleton">
+        <constructor-arg index="0" value="李伟"/>
+        <constructor-arg index="1" ref="wife1"/>
+    </bean>
 </beans>

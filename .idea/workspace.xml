@@ -5,36 +5,84 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c7f74e4-cf8a-4984-bb57-689c20543875" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-002-frist/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-002-frist/src/main/java/com/powernode/spring6/bean/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-002-frist/src/main/java/com/powernode/spring6/useBean/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-002-frist/src/main/resources/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-proxy/src/main/java/com/powernode/proxy/client/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-proxy/src/main/java/com/powernode/proxy/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-proxy/src/main/java/com/powernode/proxy/service/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-proxy/src/main/java/com/powernode/proxy/service/OrderServiceImplSub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static-proxy/src/main/java/com/powernode/proxy/service/OrderServiceProxy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-001-revelation/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-001-revelation/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-001-revelation/src/main/java/com/powernode/spring6/client/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-001-revelation/src/main/java/com/powernode/spring6/client/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-001-revelation/src/main/java/com/powernode/spring6/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-001-revelation/src/main/java/com/powernode/spring6/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-001-revelation/src/main/java/com/powernode/spring6/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-001-revelation/src/main/java/com/powernode/spring6/dao/impl/UserDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-001-revelation/src/main/java/com/powernode/spring6/service/Impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-001-revelation/src/main/java/com/powernode/spring6/service/Impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-001-revelation/src/main/java/com/powernode/spring6/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-001-revelation/src/main/java/com/powernode/spring6/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-001-revelation/src/main/java/com/powernode/spring6/web/UserAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-001-revelation/src/main/java/com/powernode/spring6/web/UserAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring6-007-circular-dependency/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring6-007-circular-dependency/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring6-007-circular-dependency/src/main/java/com/powernode/spring6/bean/Husband.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring6-007-circular-dependency/src/main/java/com/powernode/spring6/bean/Husband.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring6-007-circular-dependency/src/main/java/com/powernode/spring6/bean/Wife.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring6-007-circular-dependency/src/main/java/com/powernode/spring6/bean/Wife.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring6-007-circular-dependency/src/main/java/com/powernode/spring6/bean2/Husband.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring6-007-circular-dependency/src/main/java/com/powernode/spring6/bean2/Husband.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring6-007-circular-dependency/src/main/java/com/powernode/spring6/bean2/Wife.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring6-007-circular-dependency/src/main/java/com/powernode/spring6/bean2/Wife.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring6-007-circular-dependency/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring6-007-circular-dependency/src/main/resources/spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring6-007-circular-dependency/src/test/java/com/powernode/spring6/testCircular.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring6-007-circular-dependency/src/test/java/com/powernode/spring6/testCircular.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myspring-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/myspring-test/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myspring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/myspring/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myspring/src/main/java/org/myspringframework/core/ApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/myspring/src/main/java/org/myspringframework/core/ApplicationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myspring/src/main/java/org/myspringframework/core/ClassPathXmlApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/myspring/src/main/java/org/myspringframework/core/ClassPathXmlApplicationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/review-reflect/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/review-reflect/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/review-reflect/src/main/java/com/powernode/reflect/SomeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/review-reflect/src/main/java/com/powernode/reflect/SomeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/review-reflect/src/main/java/com/powernode/reflect/invoke_.java" beforeDir="false" afterPath="$PROJECT_DIR$/review-reflect/src/main/java/com/powernode/reflect/invoke_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-factory/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/simple-factory/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-factory/src/main/java/com/powernode/simple/factory/Dagger.java" beforeDir="false" afterPath="$PROJECT_DIR$/simple-factory/src/main/java/com/powernode/simple/factory/Dagger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-factory/src/main/java/com/powernode/simple/factory/Fighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/simple-factory/src/main/java/com/powernode/simple/factory/Fighter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-factory/src/main/java/com/powernode/simple/factory/Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/simple-factory/src/main/java/com/powernode/simple/factory/Tank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-factory/src/main/java/com/powernode/simple/factory/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/simple-factory/src/main/java/com/powernode/simple/factory/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-factory/src/main/java/com/powernode/simple/factory/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/simple-factory/src/main/java/com/powernode/simple/factory/Weapon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-factory/src/main/java/com/powernode/simple/factory/WeaponFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/simple-factory/src/main/java/com/powernode/simple/factory/WeaponFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-002-frist/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-002-frist/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-003-dependency-injection/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/com/powernode/spring6/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/com/powernode/spring6/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/com/powernode/spring6/dao/VipDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/com/powernode/spring6/dao/VipDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/com/powernode/spring6/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/com/powernode/spring6/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/com/powernode/spring6/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/com/powernode/spring6/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/com/powernode/spring6/service/VipService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/com/powernode/spring6/service/VipService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/resources/application.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/resources/application.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-003-dependency-injection/src/test/java/com/powernode/spring6/test/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/test/java/com/powernode/spring6/test/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-006-bean-instantiation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-006-bean-instantiation/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-006-bean-instantiation/src/main/java/com/powernode/spring6/bean/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-006-bean-instantiation/src/main/java/com/powernode/spring6/bean/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-006-bean-instantiation/src/main/java/com/powernode/spring6/bean/PersonFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-006-bean-instantiation/src/main/java/com/powernode/spring6/bean/PersonFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-006-bean-instantiation/src/main/java/com/powernode/spring6/bean/SpringBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-006-bean-instantiation/src/main/java/com/powernode/spring6/bean/SpringBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-006-bean-instantiation/src/main/java/com/powernode/spring6/bean/Star.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-006-bean-instantiation/src/main/java/com/powernode/spring6/bean/Star.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-006-bean-instantiation/src/main/java/com/powernode/spring6/bean/StarFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-006-bean-instantiation/src/main/java/com/powernode/spring6/bean/StarFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-006-bean-instantiation/src/main/java/com/powernode/spring6/bean/Vip.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-006-bean-instantiation/src/main/java/com/powernode/spring6/bean/Vip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-006-bean-instantiation/src/main/java/com/powernode/spring6/bean/VipFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-006-bean-instantiation/src/main/java/com/powernode/spring6/bean/VipFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-006-bean-instantiation/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-006-bean-instantiation/src/main/resources/spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-006-bean-instantiation/src/test/java/com/powernode/spring6/test/TestBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-006-bean-instantiation/src/test/java/com/powernode/spring6/test/TestBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-008-ioc-annotation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-008-ioc-annotation/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-008-ioc-annotation/src/main/java/com/powernode/spring6/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-008-ioc-annotation/src/main/java/com/powernode/spring6/bean/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-008-ioc-annotation/src/main/java/com/powernode/spring6/bean/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-008-ioc-annotation/src/main/java/com/powernode/spring6/bean/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-008-ioc-annotation/src/main/java/com/powernode/spring6/bean/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-008-ioc-annotation/src/main/java/com/powernode/spring6/bean/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-008-ioc-annotation/src/main/java/com/powernode/spring6/bean/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-008-ioc-annotation/src/main/java/com/powernode/spring6/bean/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-008-ioc-annotation/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-008-ioc-annotation/src/main/resources/spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-008-ioc-annotation/src/test/java/com/powernode/spring6/TestAno.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-008-ioc-annotation/src/test/java/com/powernode/spring6/TestAno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-proxy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/static-proxy/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="spring-beans.schema" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -51,39 +99,46 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/Java_Learn/Spring5",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Java_Learn/Java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;c034d8c695ec3b1c59e3ecc007754ffe&quot;
   }
-}]]></component>
+}</component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java_Learn\spring6\myspring\src\main\resources" />
+      <recent name="D:\Java_Learn\spring6\Spring6-007-circular-dependency\src\main\java\com\powernode\spring6\bean2" />
+      <recent name="D:\Java_Learn\spring6\spring6-003-dependency-injection\src\main\resources" />
       <recent name="D:\Java_Learn\spring6" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Java_Learn\spring6\myspring-test\src\main\resources" />
+    </key>
   </component>
-  <component name="RunManager" selected="应用程序.main">
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.powernode.spring6.useBean.main" />
-      <module name="spring-002-frist" />
+  <component name="RunManager" selected="应用程序.Test">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.powernode.proxy.client.Test" />
+      <module name="static-proxy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.powernode.spring6.useBean.*" />
+          <option name="PATTERN" value="com.powernode.proxy.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,23 +146,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.powernode.spring6.client.test" />
-      <module name="spring6-001-revelation" />
+    <configuration name="MySpringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myspring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.powernode.spring6.client.*" />
+          <option name="PATTERN" value="com.powernode.myspringtest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.powernode.myspringtest" />
+      <option name="MAIN_CLASS_NAME" value="com.powernode.myspringtest.MySpringTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MySpringTest.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myspring-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.powernode.myspringtest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.powernode.myspringtest" />
+      <option name="MAIN_CLASS_NAME" value="com.powernode.myspringtest.MySpringTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MySpringTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myspring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.powernode.myspringtest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.powernode.myspringtest" />
+      <option name="MAIN_CLASS_NAME" value="com.powernode.myspringtest.MySpringTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAno.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring6-008-ioc-annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.powernode.spring6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.powernode.spring6" />
+      <option name="MAIN_CLASS_NAME" value="com.powernode.spring6.TestAno" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.main" />
-        <item itemvalue="应用程序.test" />
+        <item itemvalue="应用程序.Test" />
+        <item itemvalue="JUnit.TestAno.test1" />
+        <item itemvalue="JUnit.MySpringTest.test (1)" />
+        <item itemvalue="JUnit.MySpringTest.test" />
+        <item itemvalue="JUnit.MySpringTest" />
       </list>
     </recent_temporary>
   </component>
@@ -119,7 +227,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669533265318</updated>
-      <workItem from="1669533266847" duration="9779000" />
+      <workItem from="1669533266847" duration="10464000" />
+      <workItem from="1669599882349" duration="6585000" />
+      <workItem from="1669631834621" duration="4972000" />
+      <workItem from="1669696803206" duration="22526000" />
+      <workItem from="1669775754527" duration="693000" />
+      <workItem from="1669812751973" duration="3669000" />
     </task>
     <servers />
   </component>
@@ -136,5 +249,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
