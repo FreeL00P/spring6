@@ -18,6 +18,7 @@
         <option value="$PROJECT_DIR$/myspring-test/pom.xml" />
         <option value="$PROJECT_DIR$/spring6-008-ioc-annotation/pom.xml" />
         <option value="$PROJECT_DIR$/static-proxy/pom.xml" />
+        <option value="$PROJECT_DIR$/dymamic-proxy-jdk/pom.xml" />
       </list>
     </option>
   </component>

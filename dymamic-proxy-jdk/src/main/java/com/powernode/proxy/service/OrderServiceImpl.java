@@ -37,4 +37,10 @@ public class OrderServiceImpl implements OrderService{
         }
         System.out.println("查看订单详情");
     }
+
+    @Override
+    public String getName() {
+        System.out.println("getName run");
+        return "张三";
+    }
 }
